@@ -1,60 +1,60 @@
 import React, { useState, useEffect } from "react";
 import axios from 'axios';
-import Slider from "react-slick";
-import FsLightbox from "fslightbox-react";
-import * as Icon from "react-feather";
+// import Slider from "react-slick";
+// import FsLightbox from "fslightbox-react";
+// import * as Icon from "react-feather";
 import Sectiontitle from "../components/Sectiontitle";
 import Layout from "../components/Layout";
-import Service from '../components/Service';
-import Testimonial from '../components/Testimonial';
+// import Service from '../components/Service';
+// import Testimonial from '../components/Testimonial';
 
 function About(){
-  const [toggler, setToggler] = useState(false);
+  // const [toggler, setToggler] = useState(false);
   const [information, setInformation] = useState("");
-  const [services, setServices] = useState([]);
-  const [reviews, setReviews] = useState([]);
+  // const [services, setServices] = useState([]);
+  // const [reviews, setReviews] = useState([]);
 
-  const sliderSettings = {
-    dots: false,
-    infinite: true,
-    arrows: false,
-    speed: 500,
-    slidesToShow: 2,
-    slidesToScroll: 2,
-    autoplay: true,
-    autoplaySpeed: 6000,
-    pauseOnHover: true,
-    adaptiveHeight: true,
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      },
-    ]
-  };
-
-  const handleToggler = (event) => {
-    setToggler({
-      toggler: event
-    })
-  }
+  // const sliderSettings = {
+  //   dots: false,
+  //   infinite: true,
+  //   arrows: false,
+  //   speed: 500,
+  //   slidesToShow: 2,
+  //   slidesToScroll: 2,
+  //   autoplay: true,
+  //   autoplaySpeed: 6000,
+  //   pauseOnHover: true,
+  //   adaptiveHeight: true,
+  //   responsive: [
+  //     {
+  //       breakpoint: 768,
+  //       settings: {
+  //         slidesToShow: 1,
+  //         slidesToScroll: 1
+  //       }
+  //     },
+  //   ]
+  // };
+  //
+  // const handleToggler = (event) => {
+  //   setToggler({
+  //     toggler: event
+  //   })
+  // }
 
   useEffect(() =>{
     axios.get('/api/information')
       .then(response =>{
         setInformation(response.data)
       })
-    axios.get('/api/services')
-      .then(response =>{
-        setServices(response.data)
-      })
-    axios.get('/api/reviews')
-      .then(response =>{
-        setReviews(response.data)
-      })
+    // axios.get('/api/services')
+    //   .then(response =>{
+    //     setServices(response.data)
+    //   })
+    // axios.get('/api/reviews')
+    //   .then(response =>{
+    //     setReviews(response.data)
+    //   })
   }, [])
 
   return (

@@ -95,23 +95,15 @@ const database = {
     }
   ],
   portfolios: [
-    {
-      id: 1,
-      title: "T-shirt Mockup",
-      subtitle: "A beautiful t-shirt mockup.",
-      imageUrl: "/images/portfolio-image-1.jpg",
-      largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
-      url: 'https://dribbble.com'
-    },
-    {
-      id: 2,
-      title: "T-shirt Mockup",
-      subtitle: "A beautiful t-shirt mockup.",
-      imageUrl: "/images/portfolio-image-1.jpg",
-      largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
-      url: 'https://dribbble.com'
-    },
-  ],
+    // {
+    //   id: 1,
+    //   title: "T-shirt Mockup",
+    //   subtitle: "A beautiful t-shirt mockup.",
+    //   imageUrl: "/images/portfolio-image-1.jpg",
+    //   gitHubLink: 'https://github.com/gcj2',
+    //   url: 'https://google.com/'
+    // }
+],
   experience: {
     workingExperience: [
       {
@@ -309,7 +301,10 @@ const database = {
   contactInfo: {
     phoneNumbers: ['920.750.9270'],
     emailAddress: ['gcjohnston91@gmail.com'],
-    address: "121 King Street, Melbourne, Victoria 3000, Australia"
+    twitter: ['gregisliving'],
+    linkedIn: ['https://www.linkedin.com/in/greg-johnston-a855974a/'],
+    gitHub: ['https://github.com/gcj2'],
+    address: null
   }
 }
 

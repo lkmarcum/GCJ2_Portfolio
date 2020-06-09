@@ -1,7 +1,7 @@
 import React from "react";
 
 function Resume(props) {
-  const {year, position, graduation, university, company, details, detailPoints} = props.resumeData;
+  const {year, position, graduation, university, company, detailPoints} = props.resumeData;
   return (
     <div className="mi-resume mt-30">
       <div className="mi-resume-summary">
