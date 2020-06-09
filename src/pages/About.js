@@ -65,11 +65,11 @@ function About(){
           <div className="row">
             <div className="col-lg-6">
               <div className="mi-about-image">
-                <img
-                  src={information.aboutImage}
-                  alt="about"
-                  // onClick={() => handleToggler(!toggler)}
-                />
+                {/*<img*/}
+                {/*  src={information.aboutImage}*/}
+                {/*  alt="about"*/}
+                {/*  // onClick={() => handleToggler(!toggler)}*/}
+                {/*/>*/}
                 {/*<span className="mi-about-image-icon">*/}
                 {/*  <Icon.ZoomIn />*/}
                 {/*</span>*/}
@@ -85,7 +85,7 @@ function About(){
                   I am <span className="color-theme">{information.name}</span>
                 </h3>
                 <p>
-                  I am a full stack web developer specializing in JS, React, and Node.
+                  I am a full stack web developer specializing in JS, React, Node, and Python.
                 </p>
                 <p>In my free time, I enjoy composing orchestral music.</p>
                 <ul>
