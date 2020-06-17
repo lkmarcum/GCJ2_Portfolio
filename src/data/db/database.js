@@ -137,26 +137,26 @@ const database = {
           "Delivered supplemental lectures on various topics related to software engineering",
         ]
       },
-      {
-        id: 2,
-        year: "8/17 - 5/19",
-        position: "Security Officer",
-        company: "Peacock Automotive",
-        details: "Responsible for all quality control standards for both safety and security for full company operation\n" +
-          "\n" +
-          "Compose daily reports communicating any and all lot activity\n" +
-          "\n" +
-          "Liaise between security director and management staff regarding security issues and policy changes\n" +
-          "\n" +
-          "Manage daily and weekly security strategy and make recommendations in accordance with process\n" +
-          "improvements",
-        detailPoints: [
-          "Responsible for all quality control standards for both safety and security for full company operation",
-          "Compose daily reports communicating any and all lot activity",
-          "Liaise between security director and management staff regarding security issues and policy changes",
-          "Manage daily and weekly security strategy and make recommendations in accordance with process improvements",
-        ]
-      },
+      // {
+      //   id: 2,
+      //   year: "8/17 - 5/19",
+      //   position: "Security Officer",
+      //   company: "Peacock Automotive",
+      //   details: "Responsible for all quality control standards for both safety and security for full company operation\n" +
+      //     "\n" +
+      //     "Compose daily reports communicating any and all lot activity\n" +
+      //     "\n" +
+      //     "Liaise between security director and management staff regarding security issues and policy changes\n" +
+      //     "\n" +
+      //     "Manage daily and weekly security strategy and make recommendations in accordance with process\n" +
+      //     "improvements",
+      //   detailPoints: [
+      //     "Responsible for all quality control standards for both safety and security for full company operation",
+      //     "Compose daily reports communicating any and all lot activity",
+      //     "Liaise between security director and management staff regarding security issues and policy changes",
+      //     "Manage daily and weekly security strategy and make recommendations in accordance with process improvements",
+      //   ]
+      // },
       {
         id: 3,
         year: "9/14 - 5/18",
@@ -218,23 +218,23 @@ const database = {
           "3.75 GPA"
         ]
       },
-      {
-        id: 3,
-        year: "2011 - 2013",
-        graduation: "Leadership Training and Pastoral Accreditation",
-        university: "South Carolina School of Leadership",
-        details: "Resident Assistant\n" +
-          "Mission Trip to Madrid Spain (3/12) - Fundraising \n" +
-          "Financial Processing for Ecuador Mission Trip (3/13) \n" +
-          "Worship Team Instrumentation \n" +
-          "Theological Instructor",
-        detailPoints: [
-          "Resident Assistant",
-          "Mission Trip to Madrid Spain (3/12) - Fundraising",
-          "Financial Processing for Ecuador Mission Trip (3/13)",
-          "Worship Team Instrumentation",
-          "Theological Instructor"  ]
-      },
+      // {
+      //   id: 3,
+      //   year: "2011 - 2013",
+      //   graduation: "Leadership Training and Pastoral Accreditation",
+      //   university: "University of Valley Forge",
+      //   details: "Resident Assistant\n" +
+      //     "Mission Trip to Madrid Spain (3/12) - Fundraising \n" +
+      //     "Financial Processing for Ecuador Mission Trip (3/13) \n" +
+      //     "Worship Team Instrumentation \n" +
+      //     "Theological Instructor",
+      //   detailPoints: [
+      //     "Resident Assistant",
+      //     "Mission Trip to Madrid Spain (3/12) - Fundraising",
+      //     "Financial Processing for Ecuador Mission Trip (3/13)",
+      //     "Worship Team Instrumentation",
+      //     "Theological Instructor"  ]
+      // },
       {
         id: 4,
         year: "2009 - 2011",

@@ -64,8 +64,8 @@ function About(){
         <div className="container">
           <Sectiontitle title="About Me" />
           <div className="row">
-            <div className="col-lg-6">
-              <div className="mi-about-image">
+            {/*<div className="col-lg-6">*/}
+              {/*<div className="mi-about-image">*/}
                 {/*<img*/}
                 {/*  src={information.aboutImage}*/}
                 {/*  alt="about"*/}
@@ -78,8 +78,8 @@ function About(){
                 {/*  toggler={toggler}*/}
                 {/*  sources={[information.aboutImageLg]}*/}
                 {/*/>*/}
-              </div>
-            </div>
+              {/*</div>*/}
+            {/*</div>*/}
             <div className="col-lg-6">
               <div className="mi-about-content">
                 <h3>
