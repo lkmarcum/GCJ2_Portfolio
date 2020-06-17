@@ -99,7 +99,7 @@ const database = {
       id: 1,
       title: "Cats and Kanye",
       subtitle: "Pictures of cats with quotes from Ye.",
-      imageUrl: "/images/catsandkanye.png",
+      imageUrl: "/images/catsandkanye.jpg",
       technologies: 'React, Axios, and SASS',
       apis: ['https://aws.random.cat/',
         'https://kanye.rest/'],
