@@ -11,6 +11,7 @@ import Layout from "../components/Layout";
 function About(){
   // const [toggler, setToggler] = useState(false);
   const [information, setInformation] = useState("");
+  // console.log(information)
   // const [services, setServices] = useState([]);
   // const [reviews, setReviews] = useState([]);
 

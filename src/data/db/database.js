@@ -95,14 +95,17 @@ const database = {
     }
   ],
   portfolios: [
-    // {
-    //   id: 1,
-    //   title: "T-shirt Mockup",
-    //   subtitle: "A beautiful t-shirt mockup.",
-    //   imageUrl: "/images/portfolio-image-1.jpg",
-    //   gitHubLink: 'https://github.com/gcj2',
-    //   url: 'https://google.com/'
-    // }
+    {
+      id: 1,
+      title: "Cats and Kanye",
+      subtitle: "Pictures of cats with quotes from Ye.",
+      imageUrl: "/images/catsandkanye.png",
+      technologies: 'React, Axios, and SASS',
+      apis: ['https://aws.random.cat/',
+        'https://kanye.rest/'],
+      gitHubLink: 'https://github.com/GCJ2/catsAndKanye',
+      url: 'https://cats-and-kanye.herokuapp.com/'
+    },
 ],
   experience: {
     workingExperience: [
